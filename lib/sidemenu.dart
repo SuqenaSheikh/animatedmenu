@@ -86,7 +86,7 @@ class _LiquidSideMenuScaffoldState extends State<LiquidSideMenuScaffold>
     super.initState();
     _controller = AnimationController(
       vsync: this,
-      duration: const Duration(milliseconds: 800),
+      duration: const Duration(milliseconds: 900),
       value: 0,
     );
   }
@@ -106,7 +106,7 @@ class _LiquidSideMenuScaffoldState extends State<LiquidSideMenuScaffold>
   void close() => _controller.animateTo(
     0,
     curve: Curves.easeInCubic,
-    duration: const Duration(milliseconds: 900),
+    duration: const Duration(milliseconds: 1000),
   );
 
   void toggle() => isOpen ? close() : open();

@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   // - Primary: teal
   // - Neutrals: near-white background, gray-900 foreground
   // - Accent: amber
-  static const Color kPrimary = Color(0xFF0D9488); // teal-600
+  static const Color kPrimary = Color(0xFF1B2E6A); // teal-600
   static const Color kBackground = Color(0xFFF8FAFC); // slate-50
   static const Color kForeground = Color(0xFFFFFFFF); // slate-900
   static const Color kAccent = Color(0xFFF59E0B); // amber-500
@@ -209,25 +209,9 @@ class _MenuHeader extends StatelessWidget {
     final cs = Theme.of(context).colorScheme;
     return Padding(
       padding: const EdgeInsets.fromLTRB(24, 48, 24, 16),
-      child: Row(
-        children: [
-          CircleAvatar(
-            radius: 22,
-            backgroundColor: cs.secondary.withOpacity(0.2),
-            child: Icon(Icons.person_rounded, color: cs.secondary),
-          ),
-          const SizedBox(width: 12),
-          Expanded(
-            child: Text(
-              'Welcome back',
-              style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                color: cs.onPrimary,
-                fontWeight: FontWeight.w600,
-              ),
-            ),
-          ),
-        ],
-      ),
+      child:Image.asset('images/CXD-Logo-Blue-black.png', width: 40,),
+
+
     );
   }
 }
