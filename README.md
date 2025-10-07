@@ -1,26 +1,35 @@
 # 🎬 Animated Side Menu
 
-A Flutter project showcasing a beautiful **animated liquid side menu** with smooth drag and reveal effects.
-
-https://github.com/yourusername/your-repo-name/blob/main/animatedsidemenu.mp4?raw=true
+A **Flutter project** showcasing a beautiful **liquid-style animated side menu** with smooth **drag and reveal effects**.  
+This project demonstrates how to create visually engaging, gesture-based navigation with Flutter’s animation framework.
 
 ---
 
 ## 🖼️ Demo
+
 <video src="animatedsidemenu.mp4" controls width="400"></video>
+
+If the video doesn’t play inline, [click here to view it directly](animatedsidemenu.mp4)  
+or use this raw GitHub link:  
+👉 [Animated Side Menu Demo](https://github.com/SuqenaSheikh/animatedmenu/blob/main/animatedsidemenu.mp4?raw=true)
 
 ---
 
-## 🚀 Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+- 🎨 **Liquid Reveal Animation** – A wave-like morphing effect for menu reveal.
+- 👆 **Edge Drag Detection** – Open menu by dragging from the **left edge** of the screen.
+- ⚙️ **Smooth Animation** – Controlled via `AnimationController` and custom `Curve`.
+- 📱 **Responsive UI** – Works on Android, iOS, and desktop.
+- 🧭 **Menu Toggle Button** – Can open/close programmatically or via icon button.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🧠 How It Works
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The core of the project is a custom **LiquidSideMenu** widget that:
+- Uses a **CustomPainter** to render a fluid, animated wave curve.
+- Wraps the app’s content inside a **Stack**.
+- Listens for horizontal drag gestures to open or close the menu.
+- Animates both the curve and menu width using **AnimationController**.
 
