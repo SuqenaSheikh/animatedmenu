@@ -1,8 +1,17 @@
-# animatedmenu
+# 🎬 Animated Side Menu
 
-A new Flutter project.
+A Flutter project showcasing a beautiful **animated liquid side menu** with smooth drag and reveal effects.
 
-## Getting Started
+https://github.com/yourusername/your-repo-name/blob/main/animatedsidemenu.mp4?raw=true
+
+---
+
+## 🖼️ Demo
+<video src="animatedsidemenu.mp4" controls width="400"></video>
+
+---
+
+## 🚀 Getting Started
 
 This project is a starting point for a Flutter application.
 
@@ -14,3 +23,4 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
